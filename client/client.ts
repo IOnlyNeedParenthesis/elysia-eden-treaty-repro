@@ -6,5 +6,5 @@ const client = treaty<App>("");
 // type hints are as expected
 client.hello1.post()
 
-// type hints incorrectly
+// type hints are correct!
 client.hello2.post()
